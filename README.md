@@ -67,4 +67,5 @@ LS_MEM_LIMIT=1073741824
 ENCRYPTION_KEY=566c32b3a14956121ff2170e5030b471551370178f43e5626eec58b04a30fae2
 ```
 
-### 참고 https://www.elastic.co/kr/blog/getting-started-with-the-elastic-stack-and-docker-compose
+### 참고 
+ - https://www.elastic.co/kr/blog/getting-started-with-the-elastic-stack-and-docker-compose
