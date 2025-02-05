@@ -6,8 +6,8 @@ CONTAINER_NAME="elk-stack"
 EC2_COMPOSE_DIR="$(pwd)/elastic"
 
 # Docker Hub 로그인 정보 설정
-export DOCKER_ID='rsw2@connectly.co.kr'
-export DOCKER_PASSWORD='Ff@20122104'
+export DOCKER_ID=''
+export DOCKER_PASSWORD=''
 
 echo "🔄 AWS EC2에서 ELK Stack 배포 시작..."
 
