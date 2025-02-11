@@ -1,7 +1,8 @@
 # Elastic Stack Docker Compose
 
 ## 개요
-이 프로젝트는 Elastic Stack (Elasticsearch, Kibana, Logstash, Filebeat, Metricbeat)을 Docker Compose를 이용하여 실행할 수 있도록 구성된 환경입니다. ELK 스택을 활용하여 로그 수집, 분석, 시각화를 수행할 수 있습니다.
+이 프로젝트는 Elastic Stack (Elasticsearch, Kibana, Logstash, Filebeat, Metricbeat)을 Docker Compose를 이용하여 실행할 수 있도록 구성된 환경입니다.
+ELK 스택을 활용하여 로그 수집, 분석, 시각화를 수행할 수 있습니다.
 
 ## 프로젝트 구조
 
@@ -50,6 +51,11 @@
 - `metricbeat.yml` 설정 파일을 사용합니다.
 - CPU, 메모리, 파일 시스템 사용량 등의 데이터를 수집합니다.
 
+
+### 7. 외부 파일비트에서 로그 수집
+- 외부에서 발생하는 파일비트들의 로그들을 수집합니다.
+- `logstash.conf` 설정 파일에 관련 설정이 추가되어 있습니다.
+
 ## 환경 변수
 `.env` 파일을 사용하여 설정 값을 관리할 수 있습니다.
 
@@ -76,3 +82,9 @@ docker-compose up -d
 
 ### 참고 
  - https://www.elastic.co/kr/blog/getting-started-with-the-elastic-stack-and-docker-compose
+
+
+
+
+## 활용 방안
+1. [대시보드 가이드 라인](ADVANCED_DASHBOARD_GUIDELINES.md)
