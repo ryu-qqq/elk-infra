@@ -88,3 +88,4 @@ docker-compose up -d
 
 ## 활용 방안
 1. [대시보드 가이드 라인](ADVANCED_DASHBOARD_GUIDELINES.md)
+   1. 현재 대시보드 7 완성,, 나머지 제작중
