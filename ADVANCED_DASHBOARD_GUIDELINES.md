@@ -87,6 +87,7 @@
 - **설명**:
   - DB 트랜잭션 병목 분석 및 성능 튜닝 필요 여부 파악
   - 특정 서비스에서 DB 문제가 반복되면 Schema 튜닝 고려
+  - [대시보드 가이드 라인](/dashboard/dashboard10.md)
 
 ### (11) 장애 복구 후 정상화 속도 (Post-Incident Recovery Monitoring)
 - **차트 유형**: Line Chart
